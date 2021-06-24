@@ -30,6 +30,28 @@ export default function App() {
         <h2>Books </h2>
        <NyBS/>
       </div>
+   <footer id="footer">
+           <div className="container">
+               <div className=" col col-4 bottom">
+                   <h3>API</h3>
+                   <p>The project resource information from The NY Times</p>
+               </div>
+               <div className=" col col-4 bottom">
+                <h3>Contact</h3>
+                <p>mamencode@gmail.com</p>
+<p>https://github.com/mamencode</p>
+            </div>
+            <div className=" col col-4 bottom">
+                <h3>API</h3>
+                   <p>The project resource information from The NY Times</p>
+            </div>
+            <div className=" col col-4 bottom">
+                 <h3>Contact</h3>
+                <p>mamencode@gmail.com</p>
+<p>https://github.com/mamencode</p>
+            </div>
+           </div>
+        </footer>
     </div>
   );
 }
