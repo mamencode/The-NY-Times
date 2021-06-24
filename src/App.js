@@ -1,3 +1,4 @@
+import React from 'react';
 import "./styles.css";
 import NyTS from './NyTS';
 import NyBS from './NyBS';
