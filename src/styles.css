@@ -16,6 +16,9 @@ body {
 .imgcontainer {
   height: 250px;
 }
+.container{
+  display: flex;
+}
 .thefigure {
   object-fit: contain;
   margin-right: auto;
@@ -64,6 +67,16 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 1.25rem;
+}
+.bottom h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+.bottom p {
+    text-align: center;
 }
 .timein {
   display: inline-block;
@@ -154,6 +167,14 @@ body {
   color: black;
   font-family: "New Rocker", cursive;
 }
+#footer{
+    background-color: black;
+    color: white;
+    min-height: 200px;
+    padding: 20px;
+    display: block;
+    overflow: hidden;
+}
 .row {
   display: flex;
 }
@@ -205,7 +226,9 @@ body {
   background-image: linear-gradient(to bottom, #f5f5f5, #d2d3d4); */
   text-decoration: none;
 }
-
+.col-4 {
+  width: 25%;
+}
 .content {
   display: block;
   flex: 1 0 auto;
@@ -267,6 +290,7 @@ body {
   .headdiv {
     height: 6.875rem;
   }
+  
 }
 @media all and (max-width: 640px) {
   #navbar nav a {
@@ -280,4 +304,11 @@ body {
   .row {
     flex-direction: column;
   }
+  .col-4 {
+    width: 100%;
+  }
+  .container{
+  display: block;
 }
+}
+
