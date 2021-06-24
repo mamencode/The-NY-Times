@@ -12,10 +12,10 @@ function NyBS() {
         "https://api.nytimes.com/svc/books/v3/lists/current/Mass Market Paperback.json?api-key=g1ivEWcaeYIrzDDxyQlXDdRTlXvxhApv"
       );
       //const {results } = result;
-      console.log(result);
+      //console.log(result);
       const { data } = result;
       const { results } = data;
-      console.log(results);
+      //console.log(results);
       setBooks(results.books);
       //  console.log(books)
     };
